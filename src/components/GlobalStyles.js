@@ -23,7 +23,7 @@ const GlobalStyles = createGlobalStyle`
         width: 100%;
     }
     h2{
-        font-size: 3rem;
+        font-size: 2.9rem;
         font-family: 'Abril Fatface', cursive;
         font-weight: lighter;
         color: #333;
