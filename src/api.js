@@ -38,10 +38,10 @@ export const popularGamesURL = () => `${base_url}${popular_games}`;
 export const upcomingGamesURL = () => `${base_url}${upcoming_games}`;
 export const newGamesURL = () => `${base_url}${newGames}`;
 //GAME DETAILS
-export const gameDetailsURL = (game_id) => `${base_url}games/${game_id}&key=7ca47b97349441f98f4f43ce76fe732b`;
+export const gameDetailsURL = (game_id) => `${base_url}games/${game_id}?key=7ca47b97349441f98f4f43ce76fe732b`;
 //Game ScreenShots
 export const gameScreenshotURL = (game_id) =>
-  `${base_url}games/${game_id}/screenshots&key=7ca47b97349441f98f4f43ce76fe732b`;
+  `${base_url}games/${game_id}/screenshots?key=7ca47b97349441f98f4f43ce76fe732b`;
 //Searched game
 export const searchGameURL = (game_name) =>
-  `${base_url}games?search=${game_name}&page_size=9&key=7ca47b97349441f98f4f43ce76fe732b`;
+  `${base_url}games?search=${game_name}?page_size=9&key=7ca47b97349441f98f4f43ce76fe732b`;
